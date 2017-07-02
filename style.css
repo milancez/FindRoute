@@ -79,6 +79,21 @@ form {
   padding-left: 15px;
 }
 
+#back {
+  position: absolute;
+  right: 10%;
+  top: 10px;
+  z-index: 1;
+}
+#back a img {
+  max-width: 40px;
+  height: auto;
+  transition: all 0.4s;
+}
+#back a img:hover {
+  max-width: 80px;
+}
+
 @media all and (max-width:599px) {
   #locationField input {
     margin-top: 5px;

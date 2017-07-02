@@ -5,7 +5,7 @@
 
 <html>
   <head>
-    <title>Place Autocomplete</title>
+    <title>Find a Route :: Map</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <style>
@@ -67,6 +67,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    <div id="back"><a href="index.html"><img src="img/back.png"></a></div>
     <iframe id="map" width="600" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=<?php print $origin ?>&destination=<?php print $destination ?>&key=AIzaSyAYGg4vTNTDyXHUzSfil8kD0_gzDjfKaa4" allowfullscreen></iframe>
   </body>
 </html>
